@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:white;
+}
+body{
+    font-family: 'Gabarito',sans-serif;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    border-bottom:solid black 1px;
+    
+}
+.navbar__2{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.navbar__2 input{
+    border: none;
+    width: 400px;
+    background-color: white;
+}
+.navbar__2 input:focus{
+    outline: none;
+}
+.navbar__3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.navbar__3 h5:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.contain{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: solid black 1px;
+   
+}
+.contain p{
+    color: rgb(8, 9, 10);
+    background-color:lightcoral;
+    padding: 5px;
+    border-radius: 30px;
+}
+.sale img{
+ width: 100%;
+ height: 400px;
+}
+.recommended{
+    padding: 10px;
+}
+.recommended__container{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.course-card{
+   width: 250px;
+}
+.course-card img{
+     height: 200px;
+     width: 250px;
+     border-radius: 8px;
+}
+
+.types{
+    padding: 10px;
+}
+.types__container{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.types__container p{
+    border: solid black 2px;
+    background-color:lightsalmon;
+    text-align: center;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    border-radius: 8px;
+}
+.types__container p:hover{
+    color:rgb(43, 10, 83);
+    border: solid black 5px;
+    font-size: large;
+}
+.popular{
+    padding: 10px;
+}
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.popular-card img{
+    width: 250px;
+    height: 200px;
+    border-radius: 8px;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+}
+.footer:hover{
+    color: blue;
+}
